@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -s\n
+ls -q\n
