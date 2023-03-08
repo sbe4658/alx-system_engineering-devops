@@ -1,2 +1,2 @@
 #!/bin/bash
-mv ./[:upper:]* /tmap/u
+mv ./ls | grep "^[A-Z]"  /tmap/u
