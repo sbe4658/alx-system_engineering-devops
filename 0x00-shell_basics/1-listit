@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -q\n
+ls -1\n
