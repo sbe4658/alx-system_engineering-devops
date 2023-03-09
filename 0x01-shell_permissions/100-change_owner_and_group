@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo vincent -gR --group=staff
+chown --from=vincent:staff
