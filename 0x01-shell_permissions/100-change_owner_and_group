@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo vincent --group=staff
+sudo vincent -gR --group=staff
