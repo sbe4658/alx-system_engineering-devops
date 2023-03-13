@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./ -type f -exec ls -lt {} + 
+find ./ -type f -exec ls -lrt {} + 
