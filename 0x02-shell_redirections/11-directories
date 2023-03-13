@@ -1,2 +1,2 @@
 #!/bin/bash
-find .././ -type d -mindepth 0 | wc -l 
+find .././ -type d -maxdepth 1 | wc -l 
