@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./ -empty | sort 
+find ./ -empty | rev | cut -d '/'i 
