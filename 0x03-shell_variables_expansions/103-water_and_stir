@@ -1,2 +1,2 @@
 #!/bin/bash
-$WATER | tr water 01234> $WATER | $STIR | tr stir. 01234>$STIR | echo $(((5#$WATER) + (5#$STIR))) | printf '%o\n' | tr 01234567 bestchol    
+ $WATER=$(echo $WATER |tr water 01234) | $STIR=$(echo $STRI |tr stri. 01234) | $RESULT=$(echo $(((5#$WATER) + (5#$STIR)))) | printf '%o\n' "$RESULT" | tr 01234567 bestchol
