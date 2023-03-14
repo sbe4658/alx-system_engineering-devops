@@ -1,2 +1,2 @@
 #!/bin/bash
- cd / | echo $PATH | cut -d '/' -f 2< ls -la | grep 'd' | wc -l
+echo $PATH $(find -type d) | tr '/' ' ' | wc -w
