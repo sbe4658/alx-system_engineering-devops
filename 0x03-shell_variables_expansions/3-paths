@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH $(find -type d) | tr '/' ' ' | wc -w
+echo $PATH | tr '/' ' '| uniq | wc -w
