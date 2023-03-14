@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | ls -la | cut -c 1 | grep 'd' |wc -l
+echo $PATH |ls -la | cut -c 1 | grep -v '-' | wc -l
