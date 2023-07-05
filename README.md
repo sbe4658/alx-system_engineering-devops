@@ -1,5 +1,5 @@
 # Shell basics
-**Hi :)**
+### Hi :)
 This repo contains all the shell projects for alx se program.
 
 ## The content:
