@@ -11,9 +11,9 @@ this project is about Linux file permissions and how to represent each of the th
 7. [Everybody!](https://github.com/sbe4658/alx-system_engineering-devops/blob/master/0x01-shell_permissions/7-everybody "7") : adds execution permission to the owner, the group owner and the other users, to the file hello.
 8. [James Bond](https://github.com/sbe4658/alx-system_engineering-devops/blob/master/0x01-shell_permissions/8-James_Bond "8") : James Bond.
 9. [James Bond](https://github.com/sbe4658/alx-system_engineering-devops/blob/master/0x01-shell_permissions/9-John_Doe "9") : The Week 753 by John Doe.
-10. [Look in the mirror](https://github.com/sbe4658/alx-system_engineering-devops/blob/master/0x01-shell_permissions/10-mirror_permissions "10") : Write a script that sets the mode of the file hello the same as olleh’s mode.
-11. [Directories](https://github.com/sbe4658/alx-system_engineering-devops/blob/master/0x01-shell_permissions/11-directories_permissions "11") : adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. *Read the man page the line that start with "The letters rwxXst".*
-12. [More directories](https://github.com/sbe4658/alx-system_engineering-devops/blob/master/0x01-shell_permissions/12-directory_permissions "12") : creates a directory called my_dir with permissions 751 in the working directory.
+10. [Look in the mirror](https://github.com/sbe4658/alx-system_engineering-devops/blob/master/0x01-shell_permissions/10-mirror_permissions "10") : Write a script that sets the mode of the file `hello` the same as `olleh`’s mode.
+11. [Directories](https://github.com/sbe4658/alx-system_engineering-devops/blob/master/0x01-shell_permissions/11-directories_permissions "11") : adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. `Read the man page the line that start with "The letters rwxXst".`
+12. [More directories](https://github.com/sbe4658/alx-system_engineering-devops/blob/master/0x01-shell_permissions/12-directory_permissions "12") : creates a directory called `my_dird` with permissions 751 in the working directory.
 13. [Change group](https://github.com/sbe4658/alx-system_engineering-devops/blob/master/0x01-shell_permissions/13-change_group "13") : Write a script that changes the group owner to school for the file hello.
 14. [Owner and group](https://github.com/sbe4658/alx-system_engineering-devops/blob/master/0x01-shell_permissions/100-change_owner_and_group "100"): changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
 15. [Symbolic links](https://github.com/sbe4658/alx-system_engineering-devops/blob/master/0x01-shell_permissions/101-symbolic_link_permissions "101") : changes the owner and the group owner of `_hello` to vincent and staff respectively.
@@ -22,8 +22,7 @@ this project is about Linux file permissions and how to represent each of the th
 > * it might take a while to run.
 > * you'll need to install telnet comand, use:
 ~~~~
-// you can use sudo if necessary
-
+*you can use sudo if necessary*
 apt-get install telnet
 apt-get upgrade telnet
 ~~~~
