@@ -22,10 +22,9 @@ this project is about Linux file permissions and how to represent each of the th
 > * it might take a while to run.
 > * you'll need to install telnet comand, use:
 ~~~~
-*you can use sudo if necessary*
+/* you can use sudo if necessary */
 apt-get install telnet
 apt-get upgrade telnet
 ~~~~
 ___
-Kimba is watching :lion:.
-For the flags like `mkdir -mode=751 dir` run the man command to get more info about it `man mkdir`.
+Kimba is watching :lion:. For the flags like `mkdir --mode=751 dir` run the man command to get more info about it `man mkdir`.
