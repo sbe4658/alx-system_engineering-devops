@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lRa | grep 'dr' | rev | cut -f 1 -d ' ' | grep -xv '.' | grep -xvc '..'
+find . -mindepth 1 -type d -print | wc -l 
