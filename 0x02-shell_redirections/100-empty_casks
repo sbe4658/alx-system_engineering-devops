@@ -1,2 +1,2 @@
 #!/bin/bah
-find -type f -empty | rev | cut -f 1 -d '/'
+find -type f -empty -print | rev | cut -f 1 -d '/'
