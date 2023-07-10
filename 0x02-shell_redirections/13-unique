@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | uniq -c | grep '1' | tr -d 1
+sort | uniq -c | grep '1' | tr -d "       1"
