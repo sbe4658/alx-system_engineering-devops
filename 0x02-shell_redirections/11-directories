@@ -1,2 +1,2 @@
 #!/bin/bash
-find  ./ -type d  -path  */. -prune -o -print | wc -l
+ls -lR | grep 'dr' -c
