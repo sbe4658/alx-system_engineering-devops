@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | rev | tr '/' '\n' | rev | tr -d ':' | sort -u | wc -l
+echo $PATH | rev | tr '/' '\n' | rev | sort -u | wc -l
