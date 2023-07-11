@@ -1,0 +1,2 @@
+#!/bin/bash
+find ./ -type f -name '*.gif' -print | rev | cut -f 1 -d '/' | rev | cut -f 1 -d '.'
